@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+html,body {
+    background-color : #B1CBE7;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+
+}
+
+.card {
+    max-width: 30%;
+    margin: 2rem;
+    border-radius: 2rem;
+    
+}
+
+
+.item {  
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    height: auto;
+    background-color: #300338;
+    color: #fff;
+    font-weight: 600;
+    margin: 1rem;
+    padding: 1rem 2rem;
+    align-items: center;
+    border-radius: 1rem;
+    
+}
+
+.heading_text {
+    font-size: 22px;
+    color: #fff;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    
+}
+
+.heading_text:not(:read-only) {
+    color: #B1CBE7;
+}
+
+.actions {
+    justify-items: center;
+    
+}
+.delete {
+    
+    margin-top: 3px;
+    margin-right: 0.5rem ;
+    cursor: pointer;
+    
+}
+.edit {
+    
+    margin-right: 0.5rem ;
+    cursor: pointer;
+    margin-right: 1rem;
+    
+}
+
+.navbar .container-fluid {
+    background-color: #000;
+    color: #B1CBE7;
+    justify-content: center;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.navbar-brand{
+    color: #B1CBE7;
+    padding: 1rem;      
+    text-align: center;  
+    margin-right: 0;
+    font-weight: 600;
+}
+
+.form-label {
+    font-size: 22px;
+    color: #000;
+    font-weight: 500;
+}
+.div_input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0.5rem;
+}
+.list_items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.input_container {
+    padding: 2rem 1rem;
+    
+}
+.input_div {
+    display: inline-block;
+    min-width: 70%;
+    padding-bottom: 0.3rem;
+}
+.item {
+    margin: 0;
+    background-color: #1E5CC4;
+    flex-direction: row;
+    padding: 0.5rem 1rem;
+    margin: 1rem 0 ;
+    
+}
+.actions {
+    display: flex;
+    
+}
+.div_button .btn_add {
+    background-color: #1E5CC4;
+    color:#fff;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1.2rem;
+    font-weight: 500;
+}
+.div_button .btn_clear {
+    background-color: #000;
+    color: #fff;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    font-weight: 500;
+}
+.div_button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 1rem;
+}
+.edit {
+    color: #B1CBE7;
+}
+.edit:hover {
+    color: #fff;
+}
+
+
+
+
+
+@media  only screen and (max-width: 600px){
+
+    
+    .div_input {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem 0.5rem;
+    }
+    .form-label {
+        font-size: 20px;
+        color: #000;
+        font-weight: 500;
+    }
+
+    
+    
+    
+    
+    .input_div {
+        display: inline-block;
+        min-width: 70%;
+    }
+    .heading_text {
+        width: 80%;
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    
+}
+    
